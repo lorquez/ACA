@@ -1,0 +1,146 @@
+  439  ls  440  git clone https://github.com/lorquez/ACA.git
+  441  ls
+  442  cd ACA
+  443  ls
+  444  nano README.md
+  445  ls
+  446  vim
+  447  htop
+  448  nano README.md
+  449  echo README.md
+  450  cat README.md
+  451  git add README.md
+  452  git push README.md
+  453  git commit README.md
+  454  git commit -m "modificacion README.md"
+  455  git push -u origin main
+  456  ls -lrth ~/data/opentraveldata
+  457  ls -lrthS ~/data/opentraveldata
+  458  ls -lrthS ~/data/opentraveldata | tail 1
+  459  ls -lrthS ~/data/opentraveldata | tail -1
+  460  ls -S ~/data/opentraveldata | tail -1
+  461  ls -lrthS ~/data/opentraveldata | tail -1 
+  462  ls -lrthS ~/data/opentraveldata | tail -1 | cat
+  463  ls -lrthS ~/data/opentraveldata | tail -1 >> 001.OUT
+  464  cat 001.OUT
+  465  echo "ls -lrthS ~/data/opentraveldata | tail -1" >> 001.SH
+  466  ls
+  467  ls -l
+  468  git add 001.OUT
+  469  git add 001.SH
+  470  bash 001.SH
+  471  cat 001.SH
+  472  bash 001.OUT
+  473  cat 001.OUT
+  474  git commit -m "Se sube el ejercicio 001"
+  475  git push -u origin main
+  476  find FINN.txt
+  477  ls
+  478  cat ~/data/shell/Finn.txt | head -5 | wc
+  479  cat ~/data/shell/Finn.txt | head -5 | wc -w
+  480  cat ~/data/shell/Finn.txt | head -5 | wc -w >> 002.OUT
+  481  echo "cat ~/data/shell/Finn.txt | head -5 | wc -w" >> 002.SH
+  482  git add 002.OUT 002.SH
+  483  git commit -m "Se sube el ejercicio 2"
+  484  git push origin main
+  485  .history
+  486  cat -n ~/data/shell/Text_example.txt | head -3
+  487  cat -n ~/data/shell/Text_example.txt | head -3 >> 003.OUT
+  488  echo "cat -n ~/data/shell/Text_example.txt | head -3" >> 003.SH
+  489  git add 003.OUT 003.SH
+  490  git commit -m "Se sube el ejercicio 3"
+  491  git push origin main
+  492  cat -n ~/data/shell/Text_example.txt
+  493  cat -n ~/data/shell/Text_example.txt >> 004.OUT
+  494  echo "cat -n ~/data/shell/Text_example.txt" >> 004.SH
+  495  ./004.SH
+  496  bash 004.SH
+  497  git add 004.*
+  498  git commit -m "Se sube el ejercicio 4"
+  499  git push -u origin main
+  500  who
+  501  name
+  502  uname
+  503  whois
+  504  whoami
+  505  echo `whois`
+  506  echo whois
+  507  echo "(whois)"
+  508  echo "whois"
+  509  echo $whois
+  510  echo 'whois'
+  511  echo `whoami`
+  512  echo `whoami date`
+  513  echo `whoami` `date`
+  514  echo "# >> 005.SH
+  515  echo '#!/bin/bash' >> 005.SH
+  516  cat 005.SH
+  517  echo `whoami` `date` >> 005.SH
+  518  cat 005.SH
+  519  date
+  520  date --help
+  521  date -F
+  522  date -f
+  523  date %f
+  524  date -I[%F]
+  525  date -I[%f]
+  526  date
+  527  date +%f
+  528  date +[%f]
+  529  date -utc yyMMdd
+  530  date -u yyMMdd
+  531  date -u [DDMMYY]
+  532  date -u DDMMYY
+  533  date -d +"%Y-%m-%d"
+  534  date -d "%Y-%m-%d"
+  535  date -d "%Y%m%d"
+  536  date "%Y-%m-%d"
+  537  ls 005.SH
+  538  ls -l 005.SH
+  539  stat -c '%w' 005.SH
+  540  ls -i 005.SH
+  541  date "%Y-%m-%d"
+  542  date "%Y-%m-%D"
+  543  date "%Y-%M-%D"
+  544  stat -c %y 005.SH
+  545  stat -c %w 005.SH
+  546  stat -c %d 005.SH
+  547  stat -c %y 005.SH
+  548  ls -lh 005.SH
+  549  date -r 005.SH
+  550  date -r 005.SH "+%Y-%M-%D"
+  551  date -r 005.SH "+%D"
+  552  date -r 005.SH "+%Y-%M-%d"
+  553  date -r 005.SH "+%Y-%m-%d"
+  554  date 005.SH "+%Y-%m-%d"
+  555  date -r 005.SH "+%Y-%m-%d"
+  556  stat -c '%w' 005.SH
+  557  stat -c '%y' 005.SH
+  558  stat -c '%W' 005.SH
+  559  stat -c '%D' 005.SH
+  560  stat -c '%d' 005.SH
+  561  stat -c '%M' 005.SH
+  562  stat -c '%m' 005.SH
+  563  cat 005.SH
+  564  git add 005.SH
+  565  git commit -m "Se sube el ejercicio 5"
+  566  git push -u origin main
+  567  echo "Dime tu edad:" ; read edad 
+  568  edad
+  569  echo $edad
+  570  $edad
+  571  cp 005.SH 006.SH
+  572  nano 006.SH
+  573  bash 006.SH
+  574  nano 006.SH
+  575  bash 006.SH
+  576  nano 006.SH
+  577  bash 006.SH
+  578  git add 006.SH
+  579  git commit -m "Se sube el ejercicio 6"
+  580  git push -u origin main
+  581  history -50
+  582  history -500
+  583  581-440
+  584  echo `581-440`
+  585  history -141
